@@ -1,0 +1,158 @@
+[
+  {
+    "inputs": [
+      {
+        "name": "primitive_material_address",
+        "type": "felt"
+      },
+      {
+        "name": "crafted_material_address",
+        "type": "felt"
+      }
+    ],
+    "name": "constructor",
+    "outputs": [],
+    "type": "constructor"
+  },
+  {
+    "inputs": [],
+    "name": "craft_soil_2_brick",
+    "outputs": [],
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "craft_brick_2_brickHouse",
+    "outputs": [],
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "forge_soilAndSeed_2_wood",
+    "outputs": [],
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "craft_soilAndSeed_2_wood",
+    "outputs": [],
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "craft_ironAndWood_2_ironSword",
+    "outputs": [],
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "forge_iron_2_steel",
+    "outputs": [],
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "craft_iron_2_steel",
+    "outputs": [],
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "forge_oil_2_plastic",
+    "outputs": [],
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "craft_oil_2_plastic",
+    "outputs": [],
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "craft_plasticAndSteel_2_computer",
+    "outputs": [],
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "craft_computer_2_electronicsStore",
+    "outputs": [],
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "name": "sender_address",
+        "type": "felt"
+      }
+    ],
+    "name": "check_elapsed_forge_time_soilAndSeed_2_wood",
+    "outputs": [
+      {
+        "name": "elapsed_time",
+        "type": "felt"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "name": "sender_address",
+        "type": "felt"
+      }
+    ],
+    "name": "check_elapsed_forge_time_iron_2_steel",
+    "outputs": [
+      {
+        "name": "elapsed_time",
+        "type": "felt"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "name": "sender_address",
+        "type": "felt"
+      }
+    ],
+    "name": "check_elapsed_forge_time_oil_2_plastic",
+    "outputs": [
+      {
+        "name": "elapsed_time",
+        "type": "felt"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "primitive_material_address",
+    "outputs": [
+      {
+        "name": "res",
+        "type": "felt"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "crafted_material_address",
+    "outputs": [
+      {
+        "name": "res",
+        "type": "felt"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

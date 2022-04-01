@@ -1,0 +1,318 @@
+[
+  {
+    "members": [
+      {
+        "name": "low",
+        "offset": 0,
+        "type": "felt"
+      },
+      {
+        "name": "high",
+        "offset": 1,
+        "type": "felt"
+      }
+    ],
+    "name": "Uint256",
+    "size": 2,
+    "type": "struct"
+  },
+  {
+    "inputs": [
+      {
+        "name": "IXoroshiro_address",
+        "type": "felt"
+      },
+      {
+        "name": "primitive_material_address",
+        "type": "felt"
+      },
+      {
+        "name": "erc20Address",
+        "type": "felt"
+      },
+      {
+        "name": "treasury_address",
+        "type": "felt"
+      }
+    ],
+    "name": "constructor",
+    "outputs": [],
+    "type": "constructor"
+  },
+  {
+    "inputs": [],
+    "name": "get_next_rnd",
+    "outputs": [
+      {
+        "name": "rnd",
+        "type": "felt"
+      }
+    ],
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "name": "owner",
+        "type": "felt"
+      }
+    ],
+    "name": "get_start_reward",
+    "outputs": [],
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "name": "owner",
+        "type": "felt"
+      }
+    ],
+    "name": "get_reward_with_fee",
+    "outputs": [],
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "get_reward2",
+    "outputs": [],
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "name": "owner",
+        "type": "felt"
+      }
+    ],
+    "name": "get_login_time",
+    "outputs": [
+      {
+        "name": "last_login_time",
+        "type": "felt"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "name": "owner",
+        "type": "felt"
+      }
+    ],
+    "name": "check_elapsed_time",
+    "outputs": [
+      {
+        "name": "elapsed_time",
+        "type": "felt"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "name": "owner",
+        "type": "felt"
+      }
+    ],
+    "name": "check_reward",
+    "outputs": [
+      {
+        "name": "flg",
+        "type": "felt"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "get_latest_rnd",
+    "outputs": [
+      {
+        "name": "rnd",
+        "type": "felt"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "get_latest_100div_rnd",
+    "outputs": [
+      {
+        "name": "c",
+        "type": "Uint256"
+      },
+      {
+        "name": "rem",
+        "type": "Uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "name": "value",
+        "type": "Uint256"
+      }
+    ],
+    "name": "set_fee",
+    "outputs": [],
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "get_fee",
+    "outputs": [
+      {
+        "name": "res",
+        "type": "Uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "name": "blockNumber",
+        "type": "felt"
+      }
+    ],
+    "name": "history_gold_parcent",
+    "outputs": [
+      {
+        "name": "gold_parcent",
+        "type": "Uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "get_gold_parcent",
+    "outputs": [
+      {
+        "name": "gold_parcent",
+        "type": "Uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "name": "last_block_number",
+        "type": "felt"
+      },
+      {
+        "name": "last_gold_parcent",
+        "type": "Uint256"
+      }
+    ],
+    "name": "_recalc_gold_parcent",
+    "outputs": [
+      {
+        "name": "res",
+        "type": "Uint256"
+      }
+    ],
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "name": "blockNumber",
+        "type": "felt"
+      }
+    ],
+    "name": "history_crystal_parcent",
+    "outputs": [
+      {
+        "name": "crystal_parcent",
+        "type": "Uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "get_crystal_parcent",
+    "outputs": [
+      {
+        "name": "crystal_parcent",
+        "type": "Uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "name": "last_block_number",
+        "type": "felt"
+      },
+      {
+        "name": "last_crystal_parcent",
+        "type": "Uint256"
+      }
+    ],
+    "name": "_recalc_crystal_parcent",
+    "outputs": [
+      {
+        "name": "res",
+        "type": "Uint256"
+      }
+    ],
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "name": "input",
+        "type": "Uint256"
+      },
+      {
+        "name": "min",
+        "type": "Uint256"
+      },
+      {
+        "name": "max",
+        "type": "Uint256"
+      }
+    ],
+    "name": "random",
+    "outputs": [
+      {
+        "name": "out",
+        "type": "Uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "primitive_material_address",
+    "outputs": [
+      {
+        "name": "res",
+        "type": "felt"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

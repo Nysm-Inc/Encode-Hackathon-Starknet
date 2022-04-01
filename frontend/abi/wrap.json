@@ -1,0 +1,274 @@
+[
+  {
+    "members": [
+      {
+        "name": "low",
+        "offset": 0,
+        "type": "felt"
+      },
+      {
+        "name": "high",
+        "offset": 1,
+        "type": "felt"
+      }
+    ],
+    "name": "Uint256",
+    "size": 2,
+    "type": "struct"
+  },
+  {
+    "inputs": [
+      {
+        "name": "primitive_material_address",
+        "type": "felt"
+      },
+      {
+        "name": "crafted_material_address",
+        "type": "felt"
+      },
+      {
+        "name": "wrap_primitive_material_address",
+        "type": "felt"
+      },
+      {
+        "name": "wrap_crafted_material_address",
+        "type": "felt"
+      }
+    ],
+    "name": "constructor",
+    "outputs": [],
+    "type": "constructor"
+  },
+  {
+    "inputs": [
+      {
+        "name": "owner",
+        "type": "felt"
+      },
+      {
+        "name": "token_id",
+        "type": "Uint256"
+      },
+      {
+        "name": "amount",
+        "type": "felt"
+      }
+    ],
+    "name": "wrap_primitive_material",
+    "outputs": [],
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "name": "owner",
+        "type": "felt"
+      },
+      {
+        "name": "tokens_id_len",
+        "type": "felt"
+      },
+      {
+        "name": "tokens_id",
+        "type": "Uint256*"
+      },
+      {
+        "name": "amounts_len",
+        "type": "felt"
+      },
+      {
+        "name": "amounts",
+        "type": "felt*"
+      }
+    ],
+    "name": "batch_wrap_primitive_material",
+    "outputs": [],
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "name": "owner",
+        "type": "felt"
+      },
+      {
+        "name": "token_id",
+        "type": "Uint256"
+      },
+      {
+        "name": "amount",
+        "type": "felt"
+      }
+    ],
+    "name": "unwrap_primitive_material",
+    "outputs": [],
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "name": "owner",
+        "type": "felt"
+      },
+      {
+        "name": "tokens_id_len",
+        "type": "felt"
+      },
+      {
+        "name": "tokens_id",
+        "type": "Uint256*"
+      },
+      {
+        "name": "amounts_len",
+        "type": "felt"
+      },
+      {
+        "name": "amounts",
+        "type": "felt*"
+      }
+    ],
+    "name": "batch_unwrap_primitive_material",
+    "outputs": [],
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "name": "owner",
+        "type": "felt"
+      },
+      {
+        "name": "token_id",
+        "type": "Uint256"
+      },
+      {
+        "name": "amount",
+        "type": "felt"
+      }
+    ],
+    "name": "wrap_crafted_material",
+    "outputs": [],
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "name": "owner",
+        "type": "felt"
+      },
+      {
+        "name": "tokens_id_len",
+        "type": "felt"
+      },
+      {
+        "name": "tokens_id",
+        "type": "Uint256*"
+      },
+      {
+        "name": "amounts_len",
+        "type": "felt"
+      },
+      {
+        "name": "amounts",
+        "type": "felt*"
+      }
+    ],
+    "name": "batch_wrap_crafted_material",
+    "outputs": [],
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "name": "owner",
+        "type": "felt"
+      },
+      {
+        "name": "token_id",
+        "type": "Uint256"
+      },
+      {
+        "name": "amount",
+        "type": "felt"
+      }
+    ],
+    "name": "unwrap_crafted_material",
+    "outputs": [],
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "name": "owner",
+        "type": "felt"
+      },
+      {
+        "name": "tokens_id_len",
+        "type": "felt"
+      },
+      {
+        "name": "tokens_id",
+        "type": "Uint256*"
+      },
+      {
+        "name": "amounts_len",
+        "type": "felt"
+      },
+      {
+        "name": "amounts",
+        "type": "felt*"
+      }
+    ],
+    "name": "batch_unwrap_crafted_material",
+    "outputs": [],
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "wrap_primitive_material_address",
+    "outputs": [
+      {
+        "name": "res",
+        "type": "felt"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "wrap_crafted_material_address",
+    "outputs": [
+      {
+        "name": "res",
+        "type": "felt"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "primitive_material_address",
+    "outputs": [
+      {
+        "name": "res",
+        "type": "felt"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "crafted_material_address",
+    "outputs": [
+      {
+        "name": "res",
+        "type": "felt"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]
