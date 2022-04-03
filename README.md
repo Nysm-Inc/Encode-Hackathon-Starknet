@@ -17,7 +17,7 @@ game players can convert these NFTs to use in various game.
 
 ## Demo
 
-### MetaMaterial 
+### MetaMaterial
 
 <https://meta-material-frontend.vercel.app/>
 
@@ -50,6 +50,7 @@ yarn deploy-bridge:goerli
 ## Acknowledgments
 
 - <https://github.com/0xs34n/starknet.js>
+- <https://github.com/auclantis/starknet-react>
 - <https://github.com/playoasis/starknet-contracts>
 - <https://github.com/OpenZeppelin/openzeppelin-contracts>
 - <https://github.com/perama-v/GoL2>
@@ -72,7 +73,7 @@ Phi is a protocol for creating an open and fair Metaverse. While Sandbox adopted
 So we are trying to adopt these blockchain features into Metaverse. Phi is a completely new bottom-up Metaverse that everyone can participate in, extend, connect, and edit. Phi adopts Internet mechanisms to the Metaverse, creating a standard of value that is independent of the size and location of the land and stimulating user creativity.
 ### Phi(Usecase)
 
-<https://next-sandbox-nine.vercel.app/>
+<https://goerli.philand.xyz/>
 
     - L1 contract on Ethereum(Goerli Testnet)
         - to message the permission of minting an Object NFT to L2 based on the coupon.
